@@ -1,0 +1,16 @@
+package project01;
+
+import java.util.Scanner;
+
+public class SmartPhone {
+	String[] addr = new String[10];
+	
+	public void inputAddrData() {
+		Scanner scan = new Scanner(System.in);
+		String name = scan.nextLine();
+		String phoneNo = scan.nextLine();
+		String email = scan.nextLine();
+		String address = scan.nextLine();
+		String group = scan.nextLine();
+	}
+}

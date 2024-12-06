@@ -1,0 +1,17 @@
+package project01;
+
+public class Addr {
+	String name;
+	String phoneNo;
+	String email;
+	String address;
+	
+	public Addr(String name, String phoneNo, String email, String address) {
+		this.name = name;
+		this.phoneNo = phoneNo;
+		this.email = email;
+		this.address = address;
+	}
+	
+	
+}

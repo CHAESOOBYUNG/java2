@@ -1,0 +1,28 @@
+package project01;
+
+public class AddrMain {
+	public static void updateGroup() {
+		System.out.println("그룹 정보 변경");
+		System.out.println("--------------------------------------");
+		
+	}
+
+	public static void main(String[] args) {
+		
+		String name = "";
+		String phoneNo = "";
+		String email = "";
+		String address = "";
+		String group = "";
+		
+		Addr addr = new Addr(name, phoneNo, email, address, group);
+		addr.setName("최윤호");
+		addr.setPhoneNo("010-0000-0000");
+		addr.setEmail("choi@gmail.com");
+		addr.setAddress("서울");
+		addr.setGroup("가족");
+		addr.printInfo();
+		updateGroup();
+		
+	}
+}

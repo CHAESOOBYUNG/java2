@@ -1,0 +1,19 @@
+package project01;
+
+public class AddrMain {
+	
+
+	public static void main(String[] args) {
+		
+		String name = "최윤호";
+		String phoneNo = "010-0000-0000";
+		String email = "choi@gmail.com";
+		String address = "서울";
+		String group = "친구";
+		
+		Addr addr = new Addr(name, phoneNo, email, address, group);
+		addr.printInfo();
+		
+		
+	}
+}
