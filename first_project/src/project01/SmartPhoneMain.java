@@ -17,7 +17,7 @@ public class SmartPhoneMain {
             System.out.print("메뉴 선택: ");
             
             int choice = scan.nextInt();
-            scan.nextLine();  // Consume the leftover newline character
+            scan.nextLine();  
             
             switch (choice) {
                 case 1:
@@ -45,7 +45,7 @@ public class SmartPhoneMain {
                     break;
                 case 6:
                     System.out.println("프로그램 종료.");
-                    scan.close();  // Close the scanner only once, at the end of the program
+                    scan.close();  
                     return;
                 default:
                     System.out.println("잘못된 입력입니다. 다시 시도하세요.");
